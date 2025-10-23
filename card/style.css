@@ -1,0 +1,49 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root
+{
+    /* --mColor:;
+    --dColor:;
+    --mFont:;
+    --dFont:; */
+}
+
+body 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    width: 300px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card .productImage
+{
+    width: 100%;
+    height: 60%;
+}
+
+img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 23px;
+}
